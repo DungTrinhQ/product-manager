@@ -13,12 +13,9 @@ public class ProductServiceImpl implements ProductService {
 
     static {
         products = new HashMap<>();
-        products.put(1, new Product(1, "Lavie", 5000, "Nuoc loc"));
-        products.put(2, new Product(2, "Sting dau", 8000, "Nuoc tang luc"));
-        products.put(3, new Product(3, "Redbull", 10000, "Nuoc tang luc"));
-        products.put(4, new Product(4, "Rocket", 45000, "Duoc pham chuc nang"));
-        products.put(5, new Product(5, "Teppy", 7000, "Nuoc ngot"));
-        products.put(6, new Product(6, "CocaCola", 8000, "Nuoc ngot"));
+        products.put(1, new Product(1, "G102 RGB White", 400000, "Logitech"));
+        products.put(2, new Product(2, "Razer Deathadder Essential", 1090000, "Razer"));
+        products.put(3, new Product(3, "M55 RGB Pro White", 790000, "Corsair"));
     }
 
     @Override
